@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>salary prediction model</title>
+
+<link rel="stylesheet" href="/static/style1.css">
+  
+</head>
+
+<body>
+
+ <div class="login">
+	<h1>Prediction of salary</h1>
+    <form action="{{ url_for('predict')}}"method="post">
+    	<input type="text" name="Year of Experience" placeholder="Experience (in years)" required="required" />
+		<br>
+        <button class="jeeet" type="submit">Predict Salary</button>
+        
+    </form>
+
+   <br>
+   {{ prediction_text }}
+   <br>
+
+ </div>
+ <footer>
+  <div class="text">
+    <span>Created By<a href="https:mail.to:03aarif20@gmail.com">Aarif </a></span>
+  </div>
+</footer>
+
+</body>
+
+</html>

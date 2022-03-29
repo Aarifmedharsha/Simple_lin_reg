@@ -1,0 +1,25 @@
+body { 
+	font-family: 'Open Sans', sans-serif;
+	background: #092756;
+	color: #fff;
+
+}
+.login { 
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	margin: -150px 0 0 -150px;
+	width:400px;
+	height:400px;
+}
+
+.login h1 { color: #fff; text-shadow: 0 0 10px rgba(0,0,0,0.3); letter-spacing:1px; text-align:center; }
+.text{
+	background:#4070f4;
+	font-family: 'Poppins', sans-serif;
+	color:#4d184c ;
+}
+button.jeeet{
+    background-color: #7b889c;
+
+}
